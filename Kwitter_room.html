@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Let's chat web app (add room page)</title>
+
+        <link rel="stylesheet" href="Kwitter_room.css">
+        <script src="kwitter_room.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    </head>
+
+    <body style = "background-image: url('wp3013508.jpg'); text-align: center;">
+
+        <h1 style="color: bisque; font-size: 56px; font-family: Patrick Hand,cursive;" id="Name_of_user"></h1>
+        <h3 id = "room_names" style="color: springgreen; font-weight: bold; font-style:italics;"></h3>
+        <br>
+        <br>
+        <div class="row">
+
+            <div id="Add room" class="pull-left col-lg-9 col-md-8 col-sm-7 col-xs-12 " style="background-color: rgba(0, 0, 255, 0.397); ">
+                <br>
+                <br>
+                <h1 id="Addroom_title" style="color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;">Add Room</h1>
+                <br>
+                <br>
+                <input id="RoomNameInput" class="form-control" placeholder="Enter room name " style="margin-left: 4px; margin-right: 16px;" >
+                <br>
+                <button class="btn btn-info" onclick="addRoom()" id="Add_room">Add room</button>
+                <br>
+                <br>
+             </div>
+     
+             <div id = "logout" class="pull-right col-lg-3 col-md-4 col-sm-5 col-xs-12 " style="background-color: rgba(220, 20, 60, 0.497);padding-bottom: 4px;">
+                <br>
+                <br>
+                <h1 style="color: yellow; font-size: 45px;">OR</h1>
+                <br>
+                <br>
+                <button onclick="Logout()" class="btn btn-success glyphicon glyphicon-log-out">&nbsp;Logout</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+
+             </div>
+
+             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-danger" style=" display: inline; padding-bottom: 4px;" >
+                
+                
+                <span class="col-lg-6" style="margin-top: 30px;"><h5 style="color: red; font-size: 26px;">This app will help you to create a room and your friend can also enter the room by entering the room name they want to enter. You can chat and send messages through this app this app uses firebase.</h5></span>
+                <img src="7c1dab157f34e603487b5d0b057da448.gif" style="width: 300px; height: 190px;">
+                
+             </div>
+
+            
+
+        </div>
+        
+        
+    </body>
+
+</html>
