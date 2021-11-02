@@ -1,0 +1,30 @@
+body{
+    background-image: url("Blue-Cloud-Sky-NAture.jpg");
+    background-size: 1550px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#Logout_button{
+    margin-top: 10px;
+}
+
+#room_name{
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: "SpecialElite" , Georgia, 'Times New Roman', Times, serif
+}
+
+#Messages{
+
+    background:linear-gradient(lightblue,#8a8af8);
+    border-radius: 30px;
+    margin-bottom: 10px;
+
+}
+
+#message_send_div{
+
+    background-color: rgb(86, 255, 56);
+    position: fixed;bottom: 0px;width: 100%;
+}

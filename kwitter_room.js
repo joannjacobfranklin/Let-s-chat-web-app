@@ -65,14 +65,22 @@ getData();
 
 function redirectToRoomName(name){
 
-  console.log(name + "rrrrrrrrrrrrrrrrrrrrrrrrrrrrr");
-  localStorage.setItem("ROOM NAME - " , name);
+  console.log("ENTERING ROOM NAME ------ " + name);
+  localStorage.setItem("Roomname" , name);
   window.location = "Kwitter_page.html";
   
   
 }
 
 
+function Logout(){
+    
+  console.log("logout");
+  localStorage.removeItem("Username");
+  localStorage.removeItem("Roomname");
+  window.location = "index.html";
+
+}
 
 
 
